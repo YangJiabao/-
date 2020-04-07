@@ -18,3 +18,8 @@
 time1 = browser.find_element_by_xpath('//*[@id="playerContainer"]/div/div[2]/div[8]').get_attribute("innerText")
 由于文本内容是隐藏的，所以用.text就会返回一个类型为str的空字符，此时需要用到.get_attribute("innerText")来获取所需时间，然后
 经过字符串的处理进行休息。
+
+
+
+
+代码粗糙，还有更新空间。2020-4-7

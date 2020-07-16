@@ -12,8 +12,8 @@ browser.maximize_window()#最大化窗口
 url = "https://degree.qingshuxuetang.com/hfgydx/Student/Home"
 browser.get(url)
 time.sleep(3)
-browser.find_element_by_id('uname').send_keys('2019312263')
-browser.find_element_by_id('pwd').send_keys('123456')
+browser.find_element_by_id('uname').send_keys('*******')
+browser.find_element_by_id('pwd').send_keys('********')
 browser.find_element_by_xpath('//*[@id="loginByPwdBtn"]').click()
 time.sleep(3)#3是推迟执行的秒数
 
